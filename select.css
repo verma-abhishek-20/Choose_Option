@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+.custom_box{
+    width: 200px;
+    display: inline-block;
+    position: relative;
+}
+.select{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.option_box{
+    display: none;
+    position: absolute;
+    font-size: 1.2rem;
+    border: 0.6px solid rgb(139, 134, 134);
+    width: 100%;
+}
+.option{
+    padding: 8px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: black;
+    color: white;
+}
+  
